@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main- entry point
+ * main- prints the number of arguments passed
  * @argc:count arguments
- * @argv: arguments
+ * @argv: array of arguments
  *
  * Return: Always 0 (Success)
  */
@@ -12,8 +12,8 @@
 int main(int argc, char *argv[])
 {
 (void) argv;
-printf("%i\n", argc -1);
+	printf("%i\n", argc -1);
 
-return (0);
+	return (0);
 }
 

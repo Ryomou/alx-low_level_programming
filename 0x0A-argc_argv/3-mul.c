@@ -7,7 +7,7 @@
  * @argc: argument count
  * @argv: count
  *
- * Return 0 if true 1 if false
+ * Return: 0 if true 1 if false
  */
 
 int main(int argc, char *argv[])
@@ -17,7 +17,7 @@ if (argc == 3)
 {
 m = atoi(argv[1]);
 n = atoi(argv[2]);
-printf("%d\n", m*n);
+printf("%d\n", m *n);
 return (0);
 }
 printf("Error\n");
